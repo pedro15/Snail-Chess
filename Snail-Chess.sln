@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snail-Chess.AI", "Snail-Chess.AI\Snail-Chess.AI.csproj", "{F0B8D5F8-DCB5-49AF-ABF9-36A34296832E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snail-Chess.Client", "Snail-Chess.Client\Snail-Chess.Client.csproj", "{11BE937A-CDD6-47CD-B10D-BC251A69B9EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snail-Chess.Cmd", "Snail-Chess.Cmd\Snail-Chess.Cmd.csproj", "{9E25BB2D-712B-496F-8A75-BFD49CC9806A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snail-Chess.Core", "Snail-Chess.Core\Snail-Chess.Core.csproj", "{B8AE0D6D-D77C-459A-B7FC-FC983A95B8B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snail-Chess.Tests", "Snail-Chess.Tests\Snail-Chess.Tests.csproj", "{AE8874AE-1E0B-42C1-BF09-9BA2852DACA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snail-Chess.Tuner", "Snail-Chess.Tuner\Snail-Chess.Tuner.csproj", "{E0764D18-877C-4103-B7AC-EA5AF9AC103A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snail-Chess.Polyglot", "Snail-Chess.Polyglot\Snail-Chess.Polyglot.csproj", "{361FFF3E-A174-465B-8004-1A388C2502CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B8D5F8-DCB5-49AF-ABF9-36A34296832E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B8D5F8-DCB5-49AF-ABF9-36A34296832E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B8D5F8-DCB5-49AF-ABF9-36A34296832E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B8D5F8-DCB5-49AF-ABF9-36A34296832E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BE937A-CDD6-47CD-B10D-BC251A69B9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BE937A-CDD6-47CD-B10D-BC251A69B9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BE937A-CDD6-47CD-B10D-BC251A69B9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BE937A-CDD6-47CD-B10D-BC251A69B9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E25BB2D-712B-496F-8A75-BFD49CC9806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E25BB2D-712B-496F-8A75-BFD49CC9806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E25BB2D-712B-496F-8A75-BFD49CC9806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E25BB2D-712B-496F-8A75-BFD49CC9806A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AE0D6D-D77C-459A-B7FC-FC983A95B8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AE0D6D-D77C-459A-B7FC-FC983A95B8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AE0D6D-D77C-459A-B7FC-FC983A95B8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AE0D6D-D77C-459A-B7FC-FC983A95B8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8874AE-1E0B-42C1-BF09-9BA2852DACA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8874AE-1E0B-42C1-BF09-9BA2852DACA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8874AE-1E0B-42C1-BF09-9BA2852DACA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8874AE-1E0B-42C1-BF09-9BA2852DACA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0764D18-877C-4103-B7AC-EA5AF9AC103A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0764D18-877C-4103-B7AC-EA5AF9AC103A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0764D18-877C-4103-B7AC-EA5AF9AC103A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0764D18-877C-4103-B7AC-EA5AF9AC103A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361FFF3E-A174-465B-8004-1A388C2502CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361FFF3E-A174-465B-8004-1A388C2502CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361FFF3E-A174-465B-8004-1A388C2502CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361FFF3E-A174-465B-8004-1A388C2502CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
