@@ -33,3 +33,6 @@ Evaluation:
 - Material adjust for rooks based on number of pawns
 - Basic King Safety using king shield zone
 - Tempo
+
+Estimated elo:
+1.0.0: ~2350
