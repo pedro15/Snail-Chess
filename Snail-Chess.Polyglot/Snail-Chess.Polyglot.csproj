@@ -3,7 +3,7 @@
     <ProjectReference Include="..\Snail-Chess.Core\Snail-Chess.Core.csproj" />
   </ItemGroup>
   <PropertyGroup>
-      <TargetFramework>netstandard2.1</TargetFramework>
+      <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>portable</DebugType>
