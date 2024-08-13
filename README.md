@@ -34,5 +34,5 @@ Evaluation:
 - Basic King Safety using king shield zone
 - Tempo
 
-Estimated elo:
-1.0.0: ~2350
+- Estimated elo:
+- 1.0.0: ~2350
