@@ -9,6 +9,7 @@
     <AssemblyName>Snail-Chess</AssemblyName>
     <TargetFramework>net7.0</TargetFramework>
     <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
   </PropertyGroup>
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>portable</DebugType>
