@@ -8,8 +8,8 @@
     <OutputType>Exe</OutputType>
     <AssemblyName>Snail-Chess</AssemblyName>
     <TargetFramework>net7.0</TargetFramework>
-    <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>false</SelfContained>
+    <PublishAot>true</PublishAot>
   </PropertyGroup>
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>portable</DebugType>
