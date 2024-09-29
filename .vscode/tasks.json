@@ -1,0 +1,32 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Texel Tuner: Run tuner",
+            "type": "shell",
+            "command": ".\\Scripts\\tune.bat"
+        },
+        {
+            "label": "Texel Tuner: Copy Data",
+            "type": "shell",
+            "command": ".\\Scripts\\tune.bat -c"
+        },
+        {
+            "label": "Run SPRT Test",
+            "type": "shell",
+            "command": ".\\Scripts\\sprt.bat -c"
+        },
+        {
+            "label": "Compile BASE executable",
+            "type": "shell",
+            "command": ".\\Scripts\\build.bat",
+        },
+        {
+            "label": "Compile DEV executable",
+            "type": "shell",
+            "command": ".\\Scripts\\build.bat -d",
+        }
+    ]
+}
