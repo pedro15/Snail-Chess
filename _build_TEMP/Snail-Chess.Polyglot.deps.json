@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Snail-Chess.Polyglot/1.0.0": {
+        "dependencies": {
+          "Snail-Chess.Core": "1.0.0"
+        },
+        "runtime": {
+          "Snail-Chess.Polyglot.dll": {}
+        }
+      },
+      "Snail-Chess.Core/1.0.0": {
+        "runtime": {
+          "Snail-Chess.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Snail-Chess.Polyglot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Snail-Chess.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

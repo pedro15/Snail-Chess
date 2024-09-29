@@ -4,29 +4,40 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "RUN Engine",
+            "type": "shell",
+            "command": ".\\Scripts\\run.bat",
+            "problemMatcher": []
+        },
+        {
             "label": "Texel Tuner: Run tuner",
             "type": "shell",
-            "command": ".\\Scripts\\tune.bat"
+            "command": ".\\Scripts\\tune.bat",
+            "problemMatcher": []
         },
         {
             "label": "Texel Tuner: Copy Data",
             "type": "shell",
-            "command": ".\\Scripts\\tune.bat -c"
+            "command": ".\\Scripts\\tune.bat -c",
+            "problemMatcher": []
         },
         {
             "label": "Run SPRT Test",
             "type": "shell",
-            "command": ".\\Scripts\\sprt.bat -c"
+            "command": ".\\Scripts\\sprt.bat -c",
+            "problemMatcher": []
         },
         {
             "label": "Compile BASE executable",
             "type": "shell",
             "command": ".\\Scripts\\build.bat",
+            "problemMatcher": []
         },
         {
             "label": "Compile DEV executable",
             "type": "shell",
             "command": ".\\Scripts\\build.bat -d",
+            "problemMatcher": []
         }
     ]
 }
