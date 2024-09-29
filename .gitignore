@@ -43,6 +43,9 @@ engines
 mono_crash.*
 
 # Build results
+_build_TEMP/
+_build_DEV/
+_build_BASE/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
