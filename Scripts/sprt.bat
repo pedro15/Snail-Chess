@@ -1,6 +1,6 @@
 @echo off
 SET CUTECHESS="C:\Program Files (x86)\Cute Chess\cutechess-cli.exe"
-SET PGN_FILE="%~dp0sprt.pgn" 
+SET PGN_FILE="%~dp0..\_sprt.pgn" 
 SET OPENING_FILE="%~dp0..\Data\8moves_v3.epd"
 IF EXIST %PGN_FILE% DEL %PGN_FILE%
 SET TC=inf/6+0.06

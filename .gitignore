@@ -35,6 +35,8 @@ engines
 *.user
 *.userosscache
 *.sln.docstates
+#sprt result
+_sprt.pgn
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
