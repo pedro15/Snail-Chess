@@ -36,4 +36,8 @@ Evaluation:
 
 
 Estimated elo:
-- 1.0.0: ~2350
+- 1.0.x: ~2350
+
+Special thanks:
+- [@eduherminio](https://github.com/eduherminio) for providing a really helpful build workflow using github actions.
+
